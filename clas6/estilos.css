@@ -1,0 +1,878 @@
+body{
+    background:red;
+  }
+  .cabeza{
+    height:120px;
+    width:120px;
+    background-color:green;
+    border-radius:40%;
+    display:block;
+    margin: 90px 590px;
+    position:absolute;
+    left:0px;
+    border: 3px solid black;
+    z-index:1;
+  }
+  .pupila{
+    position:absolute;
+    width:26px;
+    height:35px;
+    background-color:#000;
+    border-radius:50%; 
+    margin: 139px 601px;
+    top:-2px;
+    z-index:2;
+  }
+  .brillo{
+   position:absolute;
+    top:180px;
+    left:20px;
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background-color:#fff;
+    margin:-40px 591px;
+    z-index:2;
+  }
+  .ojo{
+    position :absolute;
+    width:60px;
+    height:30px;
+    border-radius: 100px / 50px;
+    background-color:#fff;
+     -webkit-border-radius:  150px / 140px;
+    top:10px;
+    left:-20px;
+    transform: rotate(89deg);
+    margin: 119px 613px;
+    border:3px solid black;
+    z-index:1;
+  }
+  .pico{
+      margin: 30%;
+      height: 230px;
+      border-radius:36%;
+      width: 99px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 370px 700px;
+    background-color:orange;
+    transform:rotate(-90deg);
+    border:5px solid black;
+    z-index:1;
+  }
+  .boca{
+      height: 145px;
+      border-bottom-left-radius: 40% 10% ;
+      width: 130px;
+      position: absolute;
+    top: -39px;
+    margin: 155px 640px;
+    background-color:orange;
+    border-radius:50%;
+    transform:rotate(-90deg);
+    position:absolute;
+    z-index:1;
+    
+  }
+  .cabello{
+        width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    background-color:red;
+    margin:80px 623px;
+    position:absolute;
+    z-index:2;
+  }
+  .mejilla{
+    width:59px;
+    height:39px;
+    border-radius:50%;
+    background-color:green;
+    position:absolute;
+     margin:179px 570px;
+    z-index:1;
+  }
+  .arruga{
+      width:33px;
+    height:33px;
+    border-radius:50%;
+    background-color:green;
+    position:absolute;
+    margin:167px 610px;
+     border: 3px solid black;
+    z-index:1;
+  }
+  .maquillaje{
+    width:54px;
+    height:42px;
+    border-radius:50%;
+    background-color:green;
+    z-index:1;
+    position:absolute;
+    margin:168px 610px;
+  }
+  .borde{
+    height:139px;
+      width:150px;
+    background-color:black;
+    border-radius:50%;
+    margin:85px -20px;
+    position: absolute;
+    transform:rotate(110deg);
+  }
+  .lengua{
+    height:30px;
+     width:54px; 
+    position:center;
+    margin:107px 40px;
+    background-color:red;
+    border-radius:40%;
+    z-index:2;
+  }
+  .cuerpo{
+    height:36px;
+    width:90px;
+    position:absolute;
+    margin:210px 580px;
+    border-radius:10%;
+    background-color:green;
+    transform:rotate(-98deg);
+  }
+  .manzana{
+     height:29px;
+    width:26px;
+    background:green;
+    border-radius:50%;
+    position:absolute;
+    margin:217px 612px;
+
+  
+  } 
+  .circulo{
+    height:15px;
+    width:15px;
+    background:green;
+    border-radius:50%;
+    position:absolute;
+    margin:220px 625px;
+    border:2px solid black;
+  }
+  .compostura{
+    height:276px;
+    width:190px;
+    background-color:bisque;
+    z-index:1;
+    position:absolute;
+    margin:246px 540px;
+    border-radius:40%;
+    transform:rotate(-9deg);
+  }
+  .triangulo{
+    position:absolute;
+    margin:273px 579px;
+    height: 0px;
+   width: 0px;
+   border-right:30px solid transparent ;
+   border-left:40px solid transparent ;
+   border-bottom:20px solid brown;
+     transform:rotate(240deg);
+    z-index:1;
+  }
+  .triangular{
+    height:0px;
+    width:0px;
+    position:absolute;
+    margin:56px -76px;
+   border-right:30px solid transparent;
+   border-left:37px solid transparent ;
+    border-bottom: 20px solid brown ;
+      transform:rotate( 105deg);
+    }
+  .verder{
+    height:0px;
+     width:0px;
+    position:absolute;
+    margin:20px -32px;
+    border-right:-7px solid transparent;
+    border-left:64px solid transparent;
+    border-bottom:39px solid green;
+    transform:rotate(180deg);
+  }
+  .bolsillo{
+   height:50px;
+   width:70px;
+   background-color:white;
+   position:absolute;
+  margin:350px 570px;
+   border-radius:50%;
+    transform:rotate(80deg);
+    border:1px solid black;
+    z-index:1;
+  }
+  .segundo{
+    height:50px;
+   width:70px;
+   background-color:white;
+   position:absolute;
+  margin:349px 650px;
+   border-radius:50%;
+    transform:rotate(90deg);
+    border:1px solid black;
+    z-index:1;
+  }
+  .secreto{
+    height:55px;
+   width:70px;
+   background-color:bisque;
+   position:absolute;
+  margin:19px 35px;
+   border-radius:20%;
+    transform:rotate(-10deg);
+    border:1px solid black;
+  }
+  .tercero{
+    height:99px;
+   width:74px;
+   background-color:bisque;
+   position:absolute;
+  margin:17px 38px;
+   border-radius:20%;
+    transform:rotate(-10deg);
+  }
+  .cuarto{
+   height:55px;
+   width:70px;
+   background-color:bisque;
+   position:absolute;
+  margin:-59px 29px;
+   border-radius:20%;
+    transform:rotate(-7deg);
+    border:1px solid black;
+  }
+  .quinto{
+    height:89px;
+   width:82px;
+   background-color:bisque;
+   position:absolute;
+  margin:-59px 19px;
+   border-radius:20%;
+    transform:rotate(-7deg);
+  }
+  .fin{
+   height:107px;
+   width:169px;
+   background-color:green;
+   position:absolute;
+  margin:-59px 110px;
+   border-radius:40%;
+    transform:rotate(82deg);
+    
+  }
+  .relleno{
+   height:99px;
+   width:55px;
+   background-color:green;
+   position:absolute;
+  margin:9px 177px;
+   border-radius:50%;
+    transform:rotate(51deg);
+    
+  }
+  .lleno{
+    height:90px;
+   width:55px;
+   background-color:green;
+   position:absolute;
+  margin:-102px 149px;
+   border-radius:50%;
+    transform:rotate(120deg);
+  }
+  .a{
+    height:20px;
+    width:20px;
+    background-color:green;
+    position:absolute;
+    margin:260px -150px;
+    border-radius:50%;
+    border:3px solid black;
+  }
+  .rasgos{
+    height:15px;
+    width:0px;
+    background-color:green;
+    position:absolute;
+    margin:250px -136px;
+    border-radius:20%;
+    border:1px solid black;
+    transform:rotate(20deg);
+  }
+  .b{
+    height:15px;
+    width:0px;
+    background-color:green;
+    position:absolute;
+    margin:270px -120px;
+    border-radius:20%;
+    border:1px solid black;
+    transform:rotate(100deg);
+  }
+  .pospierna{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:274px -214px;
+    border-radius:20%;
+    border:5px solid black;
+    transform:rotate(160deg);
+    border-radius:30%;
+  }
+  .tempora{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:284px -220px;
+    border-radius:20%;
+    transform:rotate(-19deg);
+    z-index:1;
+    border-radius:30%;
+  }
+  .pierna{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:320px -239px;
+    border-radius:20%;
+    border:5px solid black;
+    transform:rotate(79deg);
+    border-radius:30%;
+  }
+  .ovalo{
+     height:20px;
+    width:20px;
+    background-color:green;
+    position:absolute;
+    margin:265px -40px;
+    border-radius:50%;
+    border:3px solid black;
+  }
+  .c{
+    height:15px;
+    width:0px;
+    background-color:green;
+    position:absolute;
+    margin:118px 10px;
+    border-radius:20%;
+    border:1px solid black;
+    transform:rotate(-7deg)
+  }
+  .d{
+    height:15px;
+    width:0px;
+    background-color:green;
+    position:absolute;
+    margin:136px 29px;
+    border-radius:20%;
+    border:1px solid black;
+    transform:rotate(77deg)
+  }        
+  .sexta{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:149px 2px;
+    transform:rotate(29deg);
+     border: 5px solid black;
+    border-radius:30%;
+  }
+  .septima{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:190px 10px;
+    transform:rotate(132deg);
+     border: 5px solid black;
+    border-radius:30%;
+  }
+  .pintura{
+    height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:155px 12px;
+    transform:rotate(24deg);
+     border: px solid black;
+    border-radius:39%;
+  }
+  .blanco{
+     height:20px;
+    width:82px;
+    background-color:orange;
+    position:absolute;
+    margin:189px -197px;
+    transform:rotate(77deg);
+     border: px solid black;
+    border-radius:39%;
+    z-index:1;
+    
+  }
+  .negro{
+   height:20px;
+    width:78px;
+    background-color:orange;
+    position:absolute;
+    margin:210px 0px;
+    transform:rotate(130deg);
+     border: px solid black;
+    border-radius:39%;
+    z-index:1;
+  } 
+  .foot{
+   height:100px;
+   width:40px;
+   background-color:orange;
+   position:absolute;
+   margin:212px 36px;
+   border-radius:44%;
+    transform:rotate(-80deg);
+    border:1px solid black;
+  }
+  .foote{
+    height:100px;
+   width:40px;
+   background-color:orange;
+   position:absolute;
+   margin:188px -210px;
+   border-radius:44%;
+    transform:rotate(-80deg);
+    border:1px solid black;
+  }
+  .clase{
+    height:89px;
+   width:10px;
+   background-color:orange;
+   position:absolute;
+   margin:180px -190px;
+   border-radius:44%;
+    transform:rotate(-85deg);
+    border:1px solid black;
+  }
+  .clas{
+    height:89px;
+   width:10px;
+   background-color:orange;
+   position:absolute;
+   margin:205px 50px;
+   border-radius:44%;
+    transform:rotate(-79deg);
+    border:1px solid black;
+  } 
+  .filling{
+    height:36px;
+    width:193px;
+    background-color:green;
+  position:absolute;
+   margin: 70px -134px;
+    border-radius:40%;
+    transform:rotate(-350deg)
+    
+  }
+  .delete{
+    height:20px;
+    width: 70px;
+    background-color:red;
+    position:absolute;
+    margin:-110px -109px;
+    border-radius:50%;
+    transform:rotate(-24deg);
+  }
+  .mano{
+    height:100px;
+    width:100px;
+    background-color:green;
+    position:absolute;
+    margin:-86px -160px;
+    border-radius:50%;
+    border:3px solid black;
+    
+  }
+  .dedo{
+  height:91px;
+    width:40px;
+   background-color:green;
+   position:absolute;
+    margin:-99px -136px;
+    transform:rotate(10deg);
+    border:4px solid black;
+    border-radius:40%;
+    border-bottom-right-radius: 50% 0% ;
+    z-index:1;
+  }
+  .menique{
+    height:96px;
+    width:40px;
+   background-color:green;
+   position:absolute;
+    margin:-86px -160px;
+    transform:rotate(10deg);
+    border:4px solid black;
+    border-radius:40%;
+    border-bottom-right-radius: 50% 0% ;
+  }
+  .lado{
+    height:90px;
+    width:40px;
+   background-color:green;
+   position:absolute;
+    margin:-80px -106px;
+    transform:rotate(10deg);
+    border:4px solid black;
+    border-radius:30%;
+    border-bottom-left-radius: 50% 0% ;
+    z-index:3;
+  }
+  .agujero{
+   height:29px;
+    width:44px;
+   background-color:red;
+   position:absolute;
+    margin:-100px -129px;
+    transform:rotate(10deg);
+    border:px solid black;
+    border-radius:50%;
+    z-index:1;
+  }
+  .vacio{
+    height:35px;
+    width:36px;
+   background-color:green;
+   position:absolute;
+    margin:-85px -130px;
+    transform:rotate(100deg);
+    border:1px solid black;
+    border-radius:50%;
+    z-index:1;
+  }
+  .sobre{
+    height:35px;
+    width:36px;
+   background-color:green;
+   position:absolute;
+    margin:-81px -131px;
+    transform:rotate(100deg);
+    border:px solid black;
+    border-radius:50%;
+    z-index:1;
+  }
+  .ante{
+   height:39px;
+    width:42px;
+    background-color:bisque;
+   position:absolute;
+    margin:-83px -94px;
+    transform:rotate(100deg);
+    border:px solid black;
+    border-radius:50%;
+    z-index:3; 
+  }
+  .sombreado{
+    height:39px;
+    width:48px;
+    background-color:green;
+   position:absolute;
+    margin:-74px -100px;
+    transform:rotate(100deg);
+    border:1px solid black;
+    border-radius:50%;
+    z-index:3; 
+  }
+  .disf{
+  height:39px;
+    width:59px;
+    background-color:green;
+   position:absolute;
+    margin:-68px -106px;
+    transform:rotate(100deg);
+    border:px solid black;
+    border-radius:50%;
+    z-index:3;   
+  }
+  .sombrero{
+    height:80px;
+      width:90px;
+    background-color:bisque;
+    position:absolute;
+    margin:-10px -180px;
+    border-radius:50%;
+    border:2px solid black;
+  }
+  .redondo{
+   height:70px;
+      width:50px;
+    background-color:bisque;
+    position:absolute;
+    margin:-10px -160px;
+    border-radius:40%;
+    border:2px solid black;
+    transform:rotate(-50deg);
+  }
+  .semi{
+   height:60px;
+    width:80px;
+    background-color:green;
+    position:absolute;
+    margin:-82px 50px;
+    border-radius:39%;
+    border:3px solid black; 
+  }
+  .medio{
+  height:91px;
+    width:40px;
+   background-color:green;
+   position:absolute;
+    margin:-99px 73px;
+    transform:rotate(5deg);
+    border:4px solid black;
+    border-radius:40%;
+    border-bottom-right-radius: 50% 0% ;
+    z-index:3;
+  }
+  .indice{
+   height:91px;
+    width:30px;
+   background-color:green;
+   position:absolute;
+    margin:-90px 50px;
+    transform:rotate(5deg);
+    border:4px solid black;
+    border-radius:40%;
+    border-bottom-right-radius: 50% 0% ;
+    z-index:2;
+  }
+  .anular{
+    height:80px;
+    width:30px;
+   background-color:green;
+   position:absolute;
+    margin:-70px 106px;
+    transform:rotate(10deg);
+    border:4px solid black;
+    border-radius:30%;
+    border-bottom-left-radius: 50% 0% ;
+    z-index:3;
+  }
+  .pulgar{
+   height:80px;
+    width:30px;
+   background-color:green;
+   position:absolute;
+    margin:-85px 39px;
+    transform:rotate(80deg);
+    border:4px solid black;
+    border-radius:30%;
+    border-bottom-left-radius: 50% 0% ;
+    z-index:1;
+    
+  }
+  .tira{
+    height:20px;
+    width:0px;
+   background-color:green;
+   position:absolute;
+    margin:-50px 10px;
+    transform:rotate(-40deg);
+    border:3px solid black;
+    border-radius:30%;
+    border-bottom-left-radius: 50% 0% ;    
+  }
+  .li{
+    height:20px;
+    width:0px;
+   background-color:green;
+   position:absolute;
+    margin:-40px 10px;
+    transform:rotate(-120deg);
+    border:3px solid black;
+    border-radius:30%;
+    border-bottom-left-radius: 50% 0% ;
+  }
+  .brazo{
+    height:90px;
+    width:60px;
+    background-color:green;
+    position:absolute;
+    margin:-30px 60px;
+    transform:rotate(30deg);
+    border-radius:39%;
+  }
+  .pluma{
+    height:80px;
+  width:20px;
+    background-color:pink;
+    position:absolute;
+    margin:42px -164px;
+    border-radius:40%;
+    transform:rotate(-90deg);
+    border:px solid black;
+  }
+  .hoja{
+    height:80px;
+  width:20px;
+    background-color:orange;
+    position:absolute;
+    margin:57px -164px;
+    border-radius:40%;
+    transform:rotate(-100deg);
+    border:px solid black;
+  }
+  
+  .gr{
+    height:50px;
+    width:20px;
+    background-color:green;
+    position:absolute;
+    margin:70px -130px;
+    z-index:2;
+  }
+  .ave{
+    height:80px;
+  width:20px;
+    background-color:purple;
+    position:absolute;
+    margin:69px 354px;
+    border-radius:40%;
+    transform:rotate(-30deg);
+    
+  }
+  .full{
+    height:50px;
+    width:20px;
+    background-color:green;
+    position:absolute;
+    margin:49px 345px;
+    z-index:2;
+    transform:rotate(69deg);
+  }
+  .amarillo{
+    height:20px;
+    width:30px;
+    position:absolute;
+    margin:-226px -10px;
+    border-radius:40%;
+    transform:rotate(100deg);
+    z-index:4;
+    
+  }
+  .tro{
+    margin: 30%;
+      height: 230px;
+      border-radius:36%;
+      width: 99px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 105px -30px;
+    background-color:orange;
+    transform:rotate(180deg);
+    border:5px solid black;
+
+  }
+  .dorado{
+   margin: 30%;
+      height: 70px;
+      border-radius:36%;
+      width: 90px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 279px -21px;
+    background-color:purple;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1;
+  }
+  .verde{
+    margin: 30%;
+      height: 89px;
+      border-radius:36%;
+      width: 98px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 243px -25px;
+    background-color:red;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1;
+  }
+  .purpura{
+    margin: 30%;
+    height: 99px;
+      border-radius:36%;
+      width: 98px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 205px -25px;
+    background-color:yellow;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1;
+  }
+  .rosa{
+   margin: 30%;
+      height: 89px;
+      border-radius:36%;
+      width: 98px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 175px -25px;
+    background-color:pink;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1; 
+  }
+  .cafe{
+    margin: 30%;
+      height: 89px;
+      border-radius:36%;
+      width: 98px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 139px -25px;
+    background-color:lime;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1; 
+  }
+  .tomate{
+    margin: 30%;
+      height: 79px;
+      border-radius:36%;
+      width: 90px;
+      position: absolute;
+      top: -340px;
+        border-bottom-left-radius: 50% 0% ;
+      margin: 110px -17px;
+    background-color:aqua;
+    transform:rotate(-180deg);
+    border:px solid black;
+    z-index:1;
+  }
+  .pincel{
+    height:30px;
+   width:40px;
+   background-color:green;
+    position:absolute;
+    margin:8px 60px;
+    border-radius:50%;
+    
+  }
